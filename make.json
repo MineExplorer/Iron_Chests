@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/zheka2304/innercore-mod-toolchain/develop/toolchain/schemas/make.schema.json",
+	"info": {
+		"name": "Iron Chests",
+		"author": "MineExplorer",
+		"version": "1.2.2 Remastered",
+		"description": "Iron Chests mod has chests for the various materials with varying sizes",
+		"clientOnly": false,
+		"icon": "mod_icon.png"
+	},
+	"resources": [
+		{
+			"path": "assets/res",
+			"type": "resource_directory"
+		}
+	],
+	"declarations": [
+		"declarations/VanillaSlots.d.ts",
+		"declarations/StorageInterface.d.ts",
+		"declarations/CustomChest.d.ts"
+	],
+	"sources": [
+		{
+			"source": "dev",
+			"target": "main.js",
+			"type": "main",
+			"language": "typescript"
+		},
+		{
+			"source": "launcher.js",
+			"type": "launcher",
+			"language": "javascript"
+		},
+		{
+			"source": "lib/*",
+			"type": "library",
+			"language": "javascript"
+		}
+	],
+	"additional": []
+}

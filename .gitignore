@@ -1,1 +1,4 @@
-global.d.ts
+output
+tsconfig.json
+*.log
+*.icmod

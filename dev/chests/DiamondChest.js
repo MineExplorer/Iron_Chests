@@ -26,7 +26,7 @@ class DiamondChestTE extends AdvancedChestTE {
 	}
 }
 
-TileEntity.registerPrototype(BlockID.diamondChest, new DiamondChestTE());
+new DiamondChestTE().registerTile(BlockID.diamondChest);
 
 StorageInterface.createInterface(BlockID.diamondChest, {
 	slots: {

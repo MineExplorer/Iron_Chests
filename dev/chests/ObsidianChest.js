@@ -19,7 +19,7 @@ class ObsidianChestTE extends AdvancedChestTE {
 	}
 }
 
-TileEntity.registerPrototype(BlockID.obsidianChest, new ObsidianChestTE());
+new ObsidianChestTE().registerTile(BlockID.obsidianChest);
 
 StorageInterface.createInterface(BlockID.obsidianChest, {
 	slots: {

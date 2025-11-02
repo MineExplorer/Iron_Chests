@@ -22,7 +22,7 @@ class GoldChestTE extends AdvancedChestTE {
 	}
 }
 
-TileEntity.registerPrototype(BlockID.goldChest, new GoldChestTE());
+new GoldChestTE().registerTile(BlockID.goldChest);
 
 StorageInterface.createInterface(BlockID.goldChest, {
 	slots: {

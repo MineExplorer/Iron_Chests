@@ -14,7 +14,7 @@ class CrystalChestTE extends AdvancedChestTE {
 	}
 }
 
-TileEntity.registerPrototype(BlockID.crystalChest, new CrystalChestTE());
+new CrystalChestTE().registerTile(BlockID.crystalChest);
 
 StorageInterface.createInterface(BlockID.crystalChest, {
 	slots: {

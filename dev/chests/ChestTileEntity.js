@@ -9,8 +9,4 @@ class AdvancedChestTE extends ChestTileEntity {
 		tileEntity.container = container;
 		Entity.setCarriedItem(player, 0, 0, 0);
 	}
-
-	tick() {
-		StorageInterface.checkHoppers(this);
-	}
 }

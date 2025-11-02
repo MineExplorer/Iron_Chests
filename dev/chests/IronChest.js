@@ -22,7 +22,7 @@ class IronChestTE extends AdvancedChestTE {
 	}
 }
 
-TileEntity.registerPrototype(BlockID.ironChest, new IronChestTE());
+new IronChestTE().registerTile(BlockID.ironChest);
 
 StorageInterface.createInterface(BlockID.ironChest, {
 	slots: {

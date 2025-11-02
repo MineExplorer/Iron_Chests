@@ -1,5 +1,6 @@
 IMPORT("CustomChest");
 IMPORT("StorageInterface");
+IMPORT("VanillaSlots");
 
 // Translation
 Translation.addTranslation("Iron Chest", {"cs_CZ":"Železná truhla", "da_DK":"Jern Kiste", "de_DE":"Eisentruhe", "el_GR":"Σιδερένιο Σεντούκι", "es_ES":"Cofre de Hierro", "et_EE":"Raudkirst", "fr_FR":"Coffre en Fer", "ko_KR":"철 상자", "nb_NO":"Jernkiste", "nl_NL":"Ijzeren Kist", "pl_PL":"Żelazna skrzynia", "pt_BR":"Baú de Ferro", "pt_PT":"Baú de Ferro", "ru_RU":"Железный сундук", "sv_SE":"Järnkista", "tr_TR":"Demir Sandık", "zh_CN":"铁箱子", "zh_TW":"鐵箱"});

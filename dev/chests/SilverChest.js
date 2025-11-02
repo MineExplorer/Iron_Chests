@@ -22,7 +22,7 @@ class SilverChestTE extends AdvancedChestTE {
 	}
 }
 
-TileEntity.registerPrototype(BlockID.silverChest, new SilverChestTE());
+new SilverChestTE().registerTile(BlockID.silverChest);
 
 StorageInterface.createInterface(BlockID.silverChest, {
 	slots: {

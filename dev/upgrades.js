@@ -52,6 +52,7 @@ function upgradeChest(x, y, z, player) {
 	let rotation = (region.getBlockData(x, y, z) - 2) ^ 1;
 	region.setBlock(x, y, z, chestID, rotation);
 	let tileEntity = TileEntity.addTileEntity(x, y, z, region);
+	VanillaSlots.registerServerEventsForContainer(container);
 	tileEntity.container = container;
 	// clear item in hand
 	Entity.setCarriedItem(player, 0, 0, 0);

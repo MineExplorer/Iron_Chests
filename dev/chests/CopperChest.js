@@ -35,7 +35,7 @@ class CopperChestTE extends AdvancedChestTE {
 	}
 }
 
-TileEntity.registerPrototype(BlockID.copperChest, new CopperChestTE());
+new CopperChestTE().registerTile(BlockID.copperChest);
 
 StorageInterface.createInterface(BlockID.copperChest, {
 	slots: {
